@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Logo } from "./logo";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 export default function Header() {
   return (
@@ -8,18 +9,19 @@ export default function Header() {
         <Logo />
       </h1>
       <nav className="flex flex-row items-center justify-end gap-1">
+        <ThemeToggle />
         <Button variant="ghost" size="sm" asChild>
-          <a href="https://fal.ai" target="_blank" rel="noopener noreferrer">
-            fal.ai
+          <a href="https://iamai-vercel.app" target="_blank" rel="noopener noreferrer">
+            Home
           </a>
         </Button>
         <Button variant="ghost" size="sm" asChild>
           <a
-            href="https://github.com/fal-ai-community/video-starter-kit"
+            href="https://x.com/James__Spalding"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            X
           </a>
         </Button>
       </nav>
